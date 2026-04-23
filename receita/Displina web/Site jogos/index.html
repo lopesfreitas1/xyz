@@ -1,28 +1,103 @@
 <1DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Meus filmes Favoritos</title>
+    <title>Catàlogo de filmes</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <!-- Titulo Principal -->
-    <h1> Meus Filmes Favoristos</h1>
+    <header>
+        <h1> meu catàlogo de filmes</h1>
+        <p. uma seleção dos meus filmes favoritos</p>
+    </header>
 
-    <!-- Subtitulo -->
-    <h2>Sobre o site</h2>
+    <main>
 
-    <!-- Parágrafos -->
-    <p> Este Site foi criado para mostrar alguns</p>
+        <section>
+            <h2>Sobre o site</h2>
+            <p> Este Site foi criado para compartilhar alguns dos meus filmes favoritos,motrando informações bàsicas como gênero, ano e avaliação.</p>
 
+            <p>Alèm disso, o objetivo tambèm è praticar HTML semântico,organização de conteùdo e desnvolvimento web bàsico.</p>
+        </section>
 
+        <section>
+            <h2>Lista de filmes Favoristos</h2>
 
+            <ul>
+                <li>Vingadores: Ultimato</li>
+                <li>Homem-Aranha: Sem Volta Para Casa</li>
+                <li>Interestelar</li>
+                <li>Batman: O Cavaleiro das Trevas</li>
+            </ul>
+        </section>
 
+        <section>
+            <h2>Tabela de Filmes</h2>
 
+            <Table border="1">
+                <tr>
+                    <th>Filmes</th>
+                    <th>Ano</th>
+                    <th>Gênero</th>
+                    <th>Nota</th>
+                </tr>
 
+                <tr>
+                    <td>Interestelar</td>
+                    <td>2014</td>
+                    <td>Ficção cientifica</td>
+                    <td>9.5</td>
+                </tr>
+
+                <tr>
+                    <td>Batman: O Cavaleiro das Trevas</td>
+                    <td>2008</td>
+                    <td>Ação</td>
+                    <td>9.7</td>
+                </tr>
+
+                <tr>
+                    <td>Vingadores: Ultimato</td>
+                    <td>2019</td>
+                    <td>Ação</td>
+                    <td>9.0</td>
+                </tr>
+            </Table>
+        </section>
+
+        <section>
+            <h2>Imagina de destaque</h2>
+            
+            <img src="img/filme.jpg" alt="Cena de um Filme de ação com heròis reunidos">
+            
+            <p>
+                o atributo <strong>alt</strong> è importante para acessibilidade,
+                pois descreve a imagem para pessoas com deficiência visual
+                que utilizam leitores de tela, alèm de aparecer caso a imagem não carregue.
+            </p>
+        </section>
+
+        <section>
+             <h2>Saiba mais</h2>
+
+             <p>
+                 Acesse o site oficial de filmes:
+                 <a href="https://www.imdb.com" target="_blank">
+                    IMDb
+                </a>
+             </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>2026 - Meu site de fimes</p>
+    </footer>
 
 </body>
+</html>
 
 
 
